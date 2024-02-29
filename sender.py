@@ -5,9 +5,9 @@ import os
 
 # API details
 load_dotenv()
-api_id = os.getenv("API_ID")
-api_hash = os.getenv("API_HASH")
-api_name = os.getenv("API_NAME")
+api_id = os.getenv("29085825")
+api_hash = os.getenv("a164d6ce4e6fc8b3bfc4fed1140ffbef")
+api_name = os.getenv("LegendHunters")
 # Account connection
 client = TelegramClient(api_name, api_id, api_hash)
 
